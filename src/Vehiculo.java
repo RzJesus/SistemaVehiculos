@@ -11,5 +11,10 @@ public class Vehiculo {
         importado = false;
 
     }
+    public Vehiculo (String marca, int anioFabricaion){
+        this.marca = marca;
+        this.anioFabricaion = anioFabricaion;
+
+    }
 
 }

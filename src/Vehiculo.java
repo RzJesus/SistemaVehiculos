@@ -4,4 +4,12 @@ public class Vehiculo {
     double precioBase;
     boolean importado;
 
+    public Vehiculo(){
+        marca = "Sin marca";
+        anioFabricaion = 2024;
+        precioBase = 0.0;
+        importado = false;
+
+    }
+
 }

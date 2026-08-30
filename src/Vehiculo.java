@@ -1,19 +1,19 @@
 public class Vehiculo {
     String marca;
-    int anioFabricaion;
+    int anoFabricacion;
     double precioBase;
     boolean importado;
 
     public Vehiculo(){
         marca = "Sin marca";
-        anioFabricaion = 2024;
+        anoFabricacion = 2024;
         precioBase = 0.0;
         importado = false;
 
     }
     public Vehiculo (String marca, int anioFabricaion){
         this.marca = marca;
-        this.anioFabricaion = anioFabricaion;
+        this.anoFabricacion = anioFabricaion;
 
     }
 
